@@ -1,0 +1,59 @@
+.programs-head{
+    display:flex;
+    justify-content: space-evenly;
+    gap:1rem;
+
+}
+.text-1{
+    font-size:3rem;
+    text-transform: uppercase;
+    font-style:italic;
+}
+.programs-data{
+    display:flex;
+    gap:1rem;
+    padding:1rem;
+}
+.categories{
+    display:flex;
+    flex-direction:column;
+    background-color:gray;
+    padding:2rem;
+    gap: 1rem;
+    color:white;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    border-radius:1rem;
+    transition:0.5s cubic-bezier(0.39, 0.575, 0.565, 1) all;
+
+}
+.categories>:nth-child(1){
+    width:2rem;
+    height: 2rem;
+    fill:white;
+}
+.categories>:nth-child(2){
+    font-size: 1rem;
+    font-weight:bold;
+}
+.categories>:nth-child(3){
+    font-size:0.9rem;
+    line-height:25px;
+}
+.join1{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+}
+.join1 > img{
+    width: 1rem;
+}
+.categories:hover{
+    background:var(--planCard);
+    cursor: pointer;
+    border-radius:12rem;
+    align-items:center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+

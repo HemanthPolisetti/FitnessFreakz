@@ -1,0 +1,23 @@
+.footer{
+    height:20rem;
+}
+.icons{
+    display:flex;
+    gap:4rem;
+    justify-content:center;
+    align-items:center;
+    margin-top:5rem;
+}
+.icons>img{
+    width:2rem;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    margin-top: 4rem;
+    align-items:center;
+}
+.logo>img{
+    width:10rem;
+
+}

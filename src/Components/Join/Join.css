@@ -1,0 +1,47 @@
+.join{
+    display:flex;
+    gap:12rem;
+}
+.left-cont{
+    margin-left: 2rem;
+    gap:2rem;
+    text-transform:uppercase;
+
+}
+.str-txt{
+    font-size:3rem;
+}
+.bld-txt{
+    font-size:3rem;
+}
+.input{
+    display:flex;
+    padding:1rem 2rem;
+    background-color:gray;
+    gap:1rem;
+    border-radius:4rem;
+}
+.input-name{
+    background-color:gray;
+    color:white;
+    opacity:0.8;
+    border:none;
+    outline:none;
+}
+.input-name::placeholder{
+    color:white;
+    opacity:0.8;
+}
+.input>:nth-child(2){
+    background-color:var(--orange);
+    color:white;
+    opacity:0.8;
+    border-radius:2rem;
+}
+.left-cont>hr{
+    width:10.5rem;
+    margin-bottom:1rem;
+    margin-left:0;
+    border:2px solid var(--orange);
+    border-radius:20%;
+}

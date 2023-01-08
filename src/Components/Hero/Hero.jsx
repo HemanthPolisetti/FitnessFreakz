@@ -15,7 +15,7 @@ const Hero = () => {
           <div></div>
           <span>The Best Fitness club in the Town</span>
         </div>
-        <div className="hero-text">
+        <div className="hero-text texty">
           <div>
             <span className='stroke-text'>Shape </span>
             <span>Your</span>
