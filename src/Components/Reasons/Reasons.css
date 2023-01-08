@@ -70,3 +70,28 @@
     width:2rem;
     height: 2rem;
 }
+@media screen and (max-width:768px){
+.reasons{
+    flex-direction:column;
+}
+.images{
+    grid-auto-rows:column;
+    overflow:hidden;
+}
+.images>:nth-child(1){
+    width: 7rem;
+    height: 17rem;
+}
+.images>:nth-child(2){
+    width: 15rem;
+    height:10rem;
+}
+.images>:nth-child(3){
+    width: 7rem;
+}
+.images>:nth-child(4){
+    width: 7rem;
+    height: 6rem;
+}
+
+}

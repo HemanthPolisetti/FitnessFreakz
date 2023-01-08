@@ -1,6 +1,7 @@
 .join{
     display:flex;
     gap:12rem;
+    align-items:flex-end;
 }
 .left-cont{
     margin-left: 2rem;
@@ -44,4 +45,11 @@
     margin-left:0;
     border:2px solid var(--orange);
     border-radius:20%;
+}
+@media screen and (max-width:768px){
+    .join{
+        flex-direction:column;
+        margin-right: 1rem;
+        align-items:center;
+    }
 }

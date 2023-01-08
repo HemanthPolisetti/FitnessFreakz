@@ -5,14 +5,22 @@ import hero from '../../assets/hero_image.png';
 import heroback from '../../assets/hero_image_back.png';
 import heart from '../../assets/heart.png';
 import calories from '../../assets/calories.png';
+import {motion} from 'framer-motion';
 
 const Hero = () => {
+  const transition={type:'spring',duration:3}
+  const mobile=window.innerWidth<=768?true:false;
   return (
     <div className='Hero-container'>
+      <div className="blur blur-h"></div>
       <div className="left-h">
         <Header />
         <div className="best-fit">
-          <div></div>
+          <motion.div
+          initial={{left: mobile ? '130px':'220px'}}
+          whileInView={{left:'8px'}}
+          transition={{...transition,type:'linear'}}
+          ></motion.div>
           <span>The Best Fitness club in the Town</span>
         </div>
         <div className="hero-text texty">
@@ -48,20 +56,33 @@ const Hero = () => {
       <div className="right-h">
         <button className='btn'>Join Now</button>
 
-      <div className='heart-rate'>
+      <motion.div className='heart-rate'
+      initial={{right:'-1rem'}}
+      whileInView={{right:'4rem'}}
+      transition={transition}
+
+      >
         <img src={heart} alt="heart" />
         <span>Heart Beat</span>
         <span>116 bpm</span>
-      </div>
+      </motion.div>
       <img src={hero} alt="hero" className='hero-img' />
-      <img src={heroback} alt="background" className='hero-back' />
-      <div className="calories">
+      <motion.img 
+      initial={{right:'11rem'}}
+      whileInView={{right:'20rem'}}
+      transition={transition}
+      src={heroback} alt="background" className='hero-back' />
+      <motion.div className="calories"
+      initial={{right:'37rem'}}
+      whileInView={{right:'28rem'}}
+      transition={transition}>
+      
         <img src={calories} alt="calories"/>
         <div>
         <span>Calories Burned</span>
         <span>220kcal</span>
         </div>
-      </div>
+      </motion.div>
       </div>
     </div>
   )

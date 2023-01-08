@@ -42,3 +42,10 @@
 .btn:hover{
   cursor: pointer;
 }
+.blur{
+  background:var(--planCard);
+  position:absolute;
+  border-radius:50%;
+  filter:blur(200px);
+  z-index:-4;
+}

@@ -1,5 +1,5 @@
 .footer{
-    height:20rem;
+    height:25rem;
 }
 .icons{
     display:flex;
@@ -19,5 +19,20 @@
 }
 .logo>img{
     width:10rem;
-
+}
+.blur-f{
+    background:red;
+    margin-top:10rem;
+    right:15%;
+    width:26rem;
+    height:12rem;
+    filter:blur(200px);
+}
+.blur-f1{
+    background:var(--orange);
+    margin-top:10rem;
+    width:26rem;
+    height:12rem;
+    left:15%;
+    
 }

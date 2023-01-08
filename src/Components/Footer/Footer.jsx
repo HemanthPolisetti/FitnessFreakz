@@ -9,6 +9,8 @@ import logo from '../../assets/logo.png';
 const Footer = () => {
   return (
     <div className="footer">
+      <div className="blur blur-f"></div>
+      <div className="blur blur-f1"></div>
       <div>
         <hr />
         </div>

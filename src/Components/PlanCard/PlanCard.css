@@ -76,3 +76,29 @@
 .plans>:nth-child(2)>button{
     color:var(--orange)
 }
+.blur-p1{
+    width:22rem;
+    height: 30rem;
+    left:0;
+}
+.blur-p2{
+    width:20rem;
+    height:25rem;
+    margin-left:60rem;
+    margin-top: 15rem;
+}
+@media screen and (max-width:768px){
+    .plan-card{
+        flex-direction:column;
+    }
+    .top{
+        flex-direction:column;
+    }
+    .plans{
+        flex-direction:column;
+    }
+    .plans>:nth-child(2){
+        transform:none;
+    }
+
+}

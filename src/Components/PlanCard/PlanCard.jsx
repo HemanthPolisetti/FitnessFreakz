@@ -8,6 +8,8 @@ const PlanCard = () => {
     
   return (
     <div className='plan-card'>
+        <div className="blur blur-p1"></div>
+        <div className="blur blur-p2"></div>
         <div className="top">
             <span className='stroke-text txt1'>Ready to Start</span>
             <span className='hero-text txt1'>Your Journey</span>
@@ -22,7 +24,6 @@ const PlanCard = () => {
                         <div className="feature">
                             <img src={whiteTick} alt="wt" />
                             <span key={i}>{feature}</span>
-                            
                         </div>
                     ))
                     }
