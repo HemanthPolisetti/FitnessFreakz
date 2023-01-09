@@ -7,7 +7,7 @@ import rightArrow from './../../assets/rightArrow.png'
 const PlanCard = () => {
     
   return (
-    <div className='plan-card'>
+    <div className='plan-card' id='plans'>
         <div className="blur blur-p1"></div>
         <div className="blur blur-p2"></div>
         <div className="top">

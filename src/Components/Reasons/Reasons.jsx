@@ -7,7 +7,7 @@ import tick from './../../assets/tick.png'
 import './Reasons.css'
 const Reasons = () => {
   return (
-    <div className="reasons">
+    <div className="reasons" id='reasons'>
         <div className="images">
             <img src={img1} alt="im1" />
             <img src={img2} alt="im2" />

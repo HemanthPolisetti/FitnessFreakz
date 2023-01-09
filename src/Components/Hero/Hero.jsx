@@ -6,12 +6,12 @@ import heroback from '../../assets/hero_image_back.png';
 import heart from '../../assets/heart.png';
 import calories from '../../assets/calories.png';
 import {motion} from 'framer-motion';
-
+import {Link} from 'react-scroll';
 const Hero = () => {
   const transition={type:'spring',duration:3}
   const mobile=window.innerWidth<=768?true:false;
   return (
-    <div className='Hero-container'>
+    <div className='Hero-container' id='hero'>
       <div className="blur blur-h"></div>
       <div className="left-h">
         <Header />
@@ -54,7 +54,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-h">
-        <button className='btn'>Join Now</button>
+        <button className='btn'><Link to ='join'span={true} smooth={true}>Join Now</Link></button>
 
       <motion.div className='heart-rate'
       initial={{right:'-1rem'}}
