@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FitnessFreakz/static/css/main.ac369755.css",
-    "main.js": "/FitnessFreakz/static/js/main.b94d1629.js",
+    "main.css": "/FitnessFreakz/static/css/main.41f29915.css",
+    "main.js": "/FitnessFreakz/static/js/main.3a2defec.js",
     "static/media/hero_image.png": "/FitnessFreakz/static/media/hero_image.e19ac0c6b1009c7280f5.png",
     "static/media/t-image1.png": "/FitnessFreakz/static/media/t-image1.c16c2c261034cf78ee57.png",
     "static/media/image1.png": "/FitnessFreakz/static/media/image1.1091417d32e491f0bbb6.png",
@@ -12,11 +12,11 @@
     "static/media/t-image2.jpg": "/FitnessFreakz/static/media/t-image2.f5d2e52e514c544dfffb.jpg",
     "static/media/hero_image_back.png": "/FitnessFreakz/static/media/hero_image_back.9f54bfba33048f4ca688.png",
     "index.html": "/FitnessFreakz/index.html",
-    "main.ac369755.css.map": "/FitnessFreakz/static/css/main.ac369755.css.map",
-    "main.b94d1629.js.map": "/FitnessFreakz/static/js/main.b94d1629.js.map"
+    "main.41f29915.css.map": "/FitnessFreakz/static/css/main.41f29915.css.map",
+    "main.3a2defec.js.map": "/FitnessFreakz/static/js/main.3a2defec.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac369755.css",
-    "static/js/main.b94d1629.js"
+    "static/css/main.41f29915.css",
+    "static/js/main.3a2defec.js"
   ]
 }
