@@ -15,9 +15,9 @@ const Footer = () => {
         <hr />
         </div>
       <div className="icons">
-        <img src={gh} alt="gh" />
-        <img src={insta} alt="insta" />
-        <img src={lin} alt="lin" />
+        <a href='https://github.com/HemanthPolisetti/FitnessFreakz' target='_blank' rel="noreferrer"><img src={gh}  alt="gh" /></a>
+        <a href='https://www.instagram.com/hemanthpolisetti' target='_blank' rel="noreferrer"><img src={insta} alt="insta" /></a>
+        <a href='https://www.linkedin.com/in/hemanth-polisetti-042308171/' target='_blank' rel="noreferrer"><img src={lin} alt="lin" /></a>
       </div>
       <div className="logo">
         <img src={logo} alt="logo" />
