@@ -57,6 +57,9 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 @media screen and (max-width:768px){
+    .programs{
+        overflow-x:hidden;
+    }
 .programs-head{
     flex-direction:column;
     gap:1rem;
@@ -67,5 +70,9 @@
 }
 .programs-data{
     flex-direction:column;
+}
+.categories:hover{
+    border-radius:0;
+    align-items:flex-start;
 }
 }

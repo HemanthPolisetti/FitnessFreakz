@@ -33,6 +33,10 @@
     margin-top:10rem;
     width:26rem;
     height:12rem;
-    left:15%;
-    
+    left:15%;   
+}
+@media screen and (max-width:'768px') {
+    .footer{
+        overflow-x:hidden;
+    }
 }

@@ -16,6 +16,7 @@
   flex-direction: column;
   gap: 6rem;
   overflow: hidden;
+  scroll-behavior:smooth;
 }
 ::-webkit-scrollbar{
   display:none;
@@ -48,4 +49,12 @@
   border-radius:50%;
   filter:blur(200px);
   z-index:-4;
+}
+@media screen and (max-width:768px){
+  .App,body{
+    scroll-behavior:smooth;
+    overflow-x:hidden;
+    margin:0;
+    padding:0;
+  }
 }

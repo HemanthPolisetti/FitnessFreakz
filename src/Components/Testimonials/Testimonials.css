@@ -78,6 +78,7 @@
 @media screen and (max-width:768px){
     .testimonials{
         flex-direction:column;
+        overflow-x:hidden;
     }
     .left1{
         flex-direction:column;

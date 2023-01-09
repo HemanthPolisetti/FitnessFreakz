@@ -73,6 +73,7 @@
 @media screen and (max-width:768px){
 .reasons{
     flex-direction:column;
+    overflow-x:hidden;
 }
 .images{
     grid-auto-rows:column;

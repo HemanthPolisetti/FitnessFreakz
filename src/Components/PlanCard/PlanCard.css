@@ -90,6 +90,7 @@
 @media screen and (max-width:768px){
     .plan-card{
         flex-direction:column;
+        overflow-x:hidden;
     }
     .top{
         flex-direction:column;

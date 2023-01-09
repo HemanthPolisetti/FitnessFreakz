@@ -169,6 +169,7 @@
 @media screen and (max-width:768px){
     .Hero-container{
         flex-direction:column;
+        overflow-x:hidden;
     }
     .blur-h{
         width: 14rem;
